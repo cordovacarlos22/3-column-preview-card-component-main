@@ -1,0 +1,134 @@
+:root{
+    /*## Colors */
+/*### Primary*/
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+/*### Neutral */
+--Transparent-white /*(paragraphs)*/: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray /*(background, headings, buttons)*/: hsl(0, 0%, 95%);
+/*## Typography*/
+/*### Body Copy*/
+-- Font size: 15px;
+/*### Font */
+    --Lexend-Deca:'Lexend Deca', sans-serif;
+    --Big-Shoulders-Display:font-family: 'Big Shoulders Display', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+    background-color: var(--Very-light-gray);
+    
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0 0 0 275px;
+    
+}
+
+.sendans{
+    
+    background-color: var(--Bright-orange);
+    width: 300px;
+    height: 475px;
+    margin: 5px 0 ;
+}
+
+.suv{
+    
+    
+    background-color: var(--Dark-cyan);
+    width: 300px;
+    height: 475px;
+}
+
+.luxury{
+    
+    background-color: var(--Very-dark-cyan);
+    width: 300px;
+    height: 475px;
+    
+
+}
+
+h1{
+    color: var(--Very-light-gray);
+    text-transform: uppercase;
+    font-family: var(--Big-Shoulders-Display);
+    float: left;
+    margin: 60px 0 60px 40px;
+    position:absolute;
+
+}
+
+
+p{
+    color: var(--Transparent-white);
+    font-family: var(--Lexend-Deca);
+    display: flex;
+    margin: 50px -50px 50px 0;
+    padding: 20px 20px;
+    width: 250px;
+    line-height: 35px;
+    
+    
+    
+}
+
+img{
+    float: left;
+    margin: 30px 30px;
+    padding: 10px 10px;
+    display: flex;
+    
+    
+}
+
+button{
+    border-style: none;
+    background-color: var(--Very-light-gray);
+    width: 175px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: var(--Lexend-Deca);
+    font-size: 18px;
+    position: relative;
+    display: inline;
+
+}
+
+.sedans-learn-more{
+    color:var(--Bright-orange);
+}
+
+.suv-learn-more{
+    color:var(--Dark-cyan);
+}
+
+.lurury-learn-more{
+    color: var(--Very-dark-cyan);
+    
+}
+
+/*footer*/
+.attribution { 
+    font-size: 11px; 
+    text-align:center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
